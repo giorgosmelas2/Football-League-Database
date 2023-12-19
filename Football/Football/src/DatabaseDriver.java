@@ -14,8 +14,8 @@ public class DatabaseDriver {
     static String driverClassName = "oracle.jdbc.OracleDriver" ;
     static String url = "jdbc:oracle:thin:@192.168.6.21:1521:dblabs" ;
     static Connection dbConnection = null;
-    static String username = "iee2020076";
-    static String passwd = "Giannislapousi7*";
+    static String username = "username";
+    static String passwd = "password";
     static Statement  statement = null;
     static ResultSet rs = null;
     private static ResultSetMetaData metaData;
